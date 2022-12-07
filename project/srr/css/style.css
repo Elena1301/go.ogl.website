@@ -1,0 +1,42 @@
+body{
+	text-align: center;
+}
+
+.header{
+	font-size: 30px;
+	margin-top: 2%;
+	width: 90%;
+	height: 220px;
+	background-color: #FFFF99;
+	display: inline-block;
+
+}
+.main{
+	font-size: 30px;
+	margin-top: 2%;
+	display: inline-block;
+	width: 25%;
+	height:500px;
+	background-color: #5D76CB;
+	margin-right: 2%;
+}
+.content{
+	font-size: 30px;
+	margin-top: 2%;
+	margin-left: -4px;
+	display: inline-block;
+	width: 65%;
+	height: 500px;
+	background-color: #54FF9F;
+}
+.text{
+	font-size: 30px;
+}
+@media (min-width: 320px) and (max-width: 600px) {
+	.content{
+		width: 95%;
+	}
+	.main{
+		width: 95%;
+	}
+}
